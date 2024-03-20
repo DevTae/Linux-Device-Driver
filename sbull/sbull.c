@@ -104,6 +104,11 @@ blk_generic_alloc_queue(int node_id)
 #elif (LINUX_VERSION_CODE == KERNEL_VERSION(6, 1, 2))
 	//return (blk_alloc_queue(node_id, false)); // we will not use Sleepable RCU
 	return NULL; // blk_alloc_queue is deprecated in linux 6.1.2
+	/* in 6.1.2
+	struct gendisk *blk_mq_alloc_disk_for_queue(struct request_queue *q,
+		struct lock_class_key *lkclass);
+	struct request_queue *blk_mq_init_queue(struct blk_mq_tag_set *);
+	*/
 #else
 	return (blk_alloc_queue(node_id));
 #endif

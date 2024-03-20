@@ -31,7 +31,8 @@ As follows, these all things are the modules for practicing to test.
 - sbull
   - 'sbull' module
   - Test to know how to transfer object as like a block space between user space and kernel space
-  - Use **Linux 2.6** and use **the example codes in LDD3** (this code could not operates VFS in Linux 6.1.2)
+  - Use **Linux 2.6** and use **the example codes in LDD3**
+  - The codes are written for Linux 6.1.2 (If you couldn't run block device driver, then you downgrade your linux below 5)
  
 <br/>
 

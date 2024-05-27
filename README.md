@@ -37,6 +37,8 @@ As follows, these all things are the modules for practicing to test.
 <br/>
 
 Futhermore, You can see the presentation and notes in this repository [**notes folder**](https://github.com/DevTae/Linux-Device-Driver/tree/main/notes).
+
+And, this [link](https://mellow-citrine-e50.notion.site/2023-Edge-Cloud-Lab-0ebb1631ff2249668008b48a6d9d7345?pvs=4) is notion site.
  
 <br/>
 
